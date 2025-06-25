@@ -50,5 +50,12 @@ FACECOM is a purpose-built dataset with 5,000+ images captured or synthesized un
 
 - Download dataset (provided separately or via link)
 - Unzip and structure:
-- 
+- facecom-challenge/
+├── facecom_pipeline.ipynb         # Google Colab training notebook
+├── gender_model.pkl               # Trained binary classifier
+├── face_recognition_model.pkl     # Trained multi-class model
+├── streamlit_app.py               # Streamlit app
+├── requirements.txt               # Project dependencies
+└── README.md                      # Documentation
+
 
